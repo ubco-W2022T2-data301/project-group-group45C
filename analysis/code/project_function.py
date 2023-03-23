@@ -13,6 +13,10 @@ def load_and_process(path):
     )
     return df5
 
-import sys
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from .code import project_function
+else:
+    import sys
     sys.path.append("./code")
     import project_function

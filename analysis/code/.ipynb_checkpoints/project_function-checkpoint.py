@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def load_and_process('../../project-group-group45C/data/raw/day.csv'):
+def load_and_process(path):
     df4=(pd.read_csv('../../project-group-group45C/data/raw/day.csv')
      .dropna(axis=0) 
     )
@@ -13,6 +13,10 @@ def load_and_process('../../project-group-group45C/data/raw/day.csv'):
     )
     return df5
 
-import sys
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from .code import project_function
+else:
+    import sys
     sys.path.append("./code")
     import project_function
