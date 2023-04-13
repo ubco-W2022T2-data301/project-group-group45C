@@ -14,7 +14,6 @@ From the heat map from 2011 to 2012, it can be seen that the darker the color, t
 It is worth noting that in September 2011, the number of users began to decrease, but 2011 did not start to decrease until the end of October. We will continue to demonstrate this point in the following images.
 ![](../project-group-group45C/images/heatmap2011and2012.png)
 
-
 Next is the heat map distribution of the monthly weekdays in 2011 and 2012. The quantity is still distinguished according to the depth of the color.
 
 ![](../project-group-group45C/images/weekday2011.png)
