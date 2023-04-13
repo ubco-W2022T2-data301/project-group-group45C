@@ -13,13 +13,12 @@ From the heat map from 2011 to 2012, it can be seen that the darker the color, t
 
 It is worth noting that in September 2011, the number of users began to decrease, but 2011 did not start to decrease until the end of October. We will continue to demonstrate this point in the following images.
 
-![hi](../project-group-group45C/images/heatmap2011and2012.png)
-
+![](../project-group-group45C/images/heatmap2011and2012.png)
 
 Next is the heat map distribution of the monthly weekdays in 2011 and 2012. The quantity is still distinguished according to the depth of the color.
 
-![hi](../project-group-group45C/images/weekday2011.png)
-![hi](../project-group-group45C/images/weekday2012.png)
+![](../project-group-group45C/images/weekday2011.png)
+![](../project-group-group45C/images/weekday2012.png)
 
 It is not difficult to see from this image that until October 2012, there were still several days, and the number reached more than 7,000. In contrast, the dark color block in 2011 stopped in September, and the dark part of September 2011 was not as much as September 2012. So I think the 2012 peak season lasted longer than 2011. This can also be observed if you look at the images of the monthly ridgeline for the past two years, 2012 until November, when the number of rental bikes gradually returned to below 6,000. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was still relatively warm until October, so the number of rental bicycles was more than in 2011.
 
