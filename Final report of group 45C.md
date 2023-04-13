@@ -18,8 +18,8 @@ It is worth noting that in September 2011, the number of users began to decrease
 
 Next is the heat map distribution of the monthly weekdays in 2011 and 2012. The quantity is still distinguished according to the depth of the color.
 
-![hi](../project-group-group45C/images/weekday2011.png)
-![hi](../project-group-group45C/images/weekday2012.png)
+![](images/weekday2011.png)
+![](images/weekday2012.png)
 
 It is not difficult to see from this image that until October 2012, there were still several days, and the number reached more than 7,000. In contrast, the dark color block in 2011 stopped in September, and the dark part of September 2011 was not as much as September 2012. So I think the 2012 peak season lasted longer than 2011. This can also be observed if you look at the images of the monthly ridgeline for the past two years, 2012 until November, when the number of rental bikes gradually returned to below 6,000. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was still relatively warm until October, so the number of rental bicycles was more than in 2011.
 
@@ -29,16 +29,13 @@ It is not difficult to see from this image that until October 2012, there were s
 The study result of the analysis can be summarized as some points.
 First of all, it can be seen from the various images of my plot that the overall number of users in 2012 is much more than that in 2011. From the seasonal distribution chart of the number of users in 2012, it can be seen that the data in 2011 was only about 1700, 3800, 4400, and 3700, and in 2012 it reached 3500, 6200, 6700, and 6000, which almost doubled. The peak in 2012 still occurred in autumn. The overall trend in the number of rental bikes in 2011 and 2012 is very similar. From almost every image, it can be seen that the number of rented shared bicycles will increase from spring, peak season in summer and autumn, and then gradually decrease in winter. However, through the data integration of seasonal distribution images, it is found that the real peaks appear in autumn and then decline.
 
-![](../project-group-group45C/images/season2011.png)
-![](../project-group-group45C/images/season2012.png)
+![](images/season2011.png)
+![](images/season2012.png)
 
 Secondly, according to the histogram of workingday and restday (restday includes holiday and weekend), the number of shared bicycles will be very high every day during the peak season. On a restday in July 2011, the number of users soared to an unprecedented height. It was the only holiday in July. In the heat map of weekday in 2012, compared with 2011, the peak period in 2011 appeared more on Saturdays and Sundays, and once on Tuesdays. In 2012, weekday peaked many times even on working day, such as Wednesday in August and September, Friday in September, etc. So in peak seasons like summer and autumn, shared bicycles are a very important means of transportation , whether it is a weekday or a holiday.
 
-![](../project-group-group45C/images/bar2011workingday.png)
-![](../project-group-group45C/images/workday2012.png)
-
-
-
+![](images/bar2011workingday.png)
+![](images/workday2012.png)
 
 
 ## Summary/Conclusion:
