@@ -4,9 +4,10 @@
 
 ## Milestone 1 - Form Team and Find Dataset
 
-In this milestone you will be expected to choose a dataset appropriate for the DATA 301 project. The most important task for this milestone is to select an appropriate dataset.
+My team is group45C, only myself. The dataste is the bike sharing dataset from Hadi Fanaee-T in Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto. This dataset is what professor provides and it has license and get approved.
 
 ## Describe your topic/interest in about 150-200 words
+## Milestone 2
 
 I usually use the similar system with bike-sharing liek Lime app, so I choose this topic because the study result is apllicable in my life. I mainly focus on how daytime influences the number of bike rentals. I drop `casual` and `registered` column and analyze `cnt` column. Sorting and recording these data, on the one hand, is to make information such as people's pace of life and travel mode frequency transparent. If anyone is interested in this, they can check it at any time, and it can also be analyzed and cited as academic data. On the other hand, knowing people's travel can help the government understand people's life patterns, and use scientific methods to estimate and calculate, and finally sort out data on citizens' use of shared bicycles. From a certain point of view, analyzing and tracking people's paths can now maintain the city's safety in special cases.
 

@@ -1,0 +1,940 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0209.1653                               -->
+<workbook original-version='18.1' source-build='2022.4.1 (20224.23.0209.1653)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='milestone5dataset' inline='true' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='milestone5dataset' name='textscan.16jhm6j0lmxoo21888ov30epkxbf'>
+            <connection class='textscan' directory='C:/Users/lenovo/Desktop/data301/project-group-group45C/data/processed' filename='milestone5dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16jhm6j0lmxoo21888ov30epkxbf' name='milestone5dataset.csv' table='[milestone5dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='date' name='Dteday' ordinal='0' />
+            <column datatype='integer' name='Yr' ordinal='1' />
+            <column datatype='integer' name='Cnt' ordinal='2' />
+            <column datatype='integer' name='Holiday' ordinal='3' />
+            <column datatype='integer' name='Instant' ordinal='4' />
+            <column datatype='integer' name='Mnth' ordinal='5' />
+            <column datatype='integer' name='Season' ordinal='6' />
+            <column datatype='integer' name='Weekday' ordinal='7' />
+            <column datatype='integer' name='Workingday' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.16jhm6j0lmxoo21888ov30epkxbf' name='milestone5dataset.csv' table='[milestone5dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+            <column datatype='date' name='Dteday' ordinal='0' />
+            <column datatype='integer' name='Yr' ordinal='1' />
+            <column datatype='integer' name='Cnt' ordinal='2' />
+            <column datatype='integer' name='Holiday' ordinal='3' />
+            <column datatype='integer' name='Instant' ordinal='4' />
+            <column datatype='integer' name='Mnth' ordinal='5' />
+            <column datatype='integer' name='Season' ordinal='6' />
+            <column datatype='integer' name='Weekday' ordinal='7' />
+            <column datatype='integer' name='Workingday' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¥&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dteday</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Dteday]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Dteday</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yr]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Yr</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cnt]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Cnt</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Holiday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Holiday]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Holiday</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Instant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Instant]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Instant</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mnth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mnth]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Mnth</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weekday]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Weekday</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Workingday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Workingday]</local-name>
+            <parent-name>[milestone5dataset.csv]</parent-name>
+            <remote-alias>Workingday</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='seasonal split' datatype='string' name='[Calculation_1179098689941254144]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Season] = 1 THEN &quot;Spring&quot;&#13;&#10;ELSEIF [Season] = 2 THEN &quot;Summer&quot;&#13;&#10;ELSEIF [Season] = 3 THEN &quot;Fall&quot;&#13;&#10;ELSEIF [Season] = 4 THEN &quot;Winter&quot;&#13;&#10;END' />
+      </column>
+      <column caption='weekday split' datatype='string' name='[Calculation_1179098689941716993]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Weekday] = 0 THEN &quot;Sunday&quot;&#13;&#10;ELSEIF [Weekday] = 1 THEN &quot;Monday&quot;&#13;&#10;ELSEIF [Weekday] = 2 THEN &quot;Tuesday&quot;&#13;&#10;ELSEIF [Weekday] = 3 THEN &quot;Wednesday&quot;&#13;&#10;ELSEIF [Weekday] = 4 THEN &quot;Thursday&quot;&#13;&#10;ELSEIF [Weekday] = 5 THEN &quot;Friday&quot;&#13;&#10;ELSEIF [Weekday] = 6 THEN &quot;Saturday&quot;&#13;&#10;END' />
+      </column>
+      <column caption='work' datatype='string' name='[Calculation_1179098689942056962]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Workingday] = 0 THEN &quot;rest day&quot;&#13;&#10;ELSEIF [Workingday] = 1 THEN &quot;work day&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Yr]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='milestone5dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41]' role='measure' type='quantitative' />
+      <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[yr:Dteday:ok]' type='palette'>
+            <map to='#b07aa1'>
+              <bucket>2012</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>2011</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='milestone5dataset.csv' id='milestone5dataset.csv_8FF22F443C26420C8236BE2426C26B41'>
+            <properties context=''>
+              <relation connection='textscan.16jhm6j0lmxoo21888ov30epkxbf' name='milestone5dataset.csv' table='[milestone5dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='date' name='Dteday' ordinal='0' />
+                  <column datatype='integer' name='Yr' ordinal='1' />
+                  <column datatype='integer' name='Cnt' ordinal='2' />
+                  <column datatype='integer' name='Holiday' ordinal='3' />
+                  <column datatype='integer' name='Instant' ordinal='4' />
+                  <column datatype='integer' name='Mnth' ordinal='5' />
+                  <column datatype='integer' name='Season' ordinal='6' />
+                  <column datatype='integer' name='Weekday' ordinal='7' />
+                  <column datatype='integer' name='Workingday' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='14'>Month</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='milestone5dataset' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dim98z0wbrvfn0zy7yqx1ea328o'>
+            <column datatype='integer' name='[Cnt]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+            <column-instance column='[Dteday]' derivation='Month' name='[mn:Dteday:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Cnt]' derivation='Sum' name='[sum:Cnt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]'>
+            <groupfilter function='level-members' level='[yr:Dteday:ok]' />
+          </filter>
+          <slices>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' scope='rows' value='total rental bikes' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]</rows>
+        <cols>([federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok] / [federated.1dim98z0wbrvfn0zy7yqx1ea328o].[mn:Dteday:ok])</cols>
+      </table>
+      <simple-id uuid='{9996A74E-9458-4AE9-A10B-E7384CD30898}' />
+    </worksheet>
+    <worksheet name='seasonal'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='14'>Seasonal</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='milestone5dataset' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dim98z0wbrvfn0zy7yqx1ea328o'>
+            <column caption='seasonal split' datatype='string' name='[Calculation_1179098689941254144]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Season] = 1 THEN &quot;Spring&quot;&#13;&#10;ELSEIF [Season] = 2 THEN &quot;Summer&quot;&#13;&#10;ELSEIF [Season] = 3 THEN &quot;Fall&quot;&#13;&#10;ELSEIF [Season] = 4 THEN &quot;Winter&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Cnt]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Season]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1179098689941254144]' derivation='None' name='[none:Calculation_1179098689941254144:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cnt]' derivation='Sum' name='[sum:Cnt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941254144:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1179098689941254144:nk]' />
+          </filter>
+          <manual-sort column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941254144:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Spring&quot;</bucket>
+              <bucket>&quot;Summer&quot;</bucket>
+              <bucket>&quot;Fall&quot;</bucket>
+              <bucket>&quot;Winter&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]'>
+            <groupfilter function='level-members' level='[yr:Dteday:ok]' />
+          </filter>
+          <slices>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941254144:nk]</column>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' scope='rows' value='total rental bikes' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok] * [federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk])</rows>
+        <cols>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941254144:nk]</cols>
+      </table>
+      <simple-id uuid='{E1888835-0C55-4308-BD8A-B344F8D5A078}' />
+    </worksheet>
+    <worksheet name='weekday'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='14'>Weekday</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='milestone5dataset' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dim98z0wbrvfn0zy7yqx1ea328o'>
+            <column caption='weekday split' datatype='string' name='[Calculation_1179098689941716993]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Weekday] = 0 THEN &quot;Sunday&quot;&#13;&#10;ELSEIF [Weekday] = 1 THEN &quot;Monday&quot;&#13;&#10;ELSEIF [Weekday] = 2 THEN &quot;Tuesday&quot;&#13;&#10;ELSEIF [Weekday] = 3 THEN &quot;Wednesday&quot;&#13;&#10;ELSEIF [Weekday] = 4 THEN &quot;Thursday&quot;&#13;&#10;ELSEIF [Weekday] = 5 THEN &quot;Friday&quot;&#13;&#10;ELSEIF [Weekday] = 6 THEN &quot;Saturday&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Cnt]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Weekday]' role='measure' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Month' name='[mn:Dteday:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1179098689941716993]' derivation='None' name='[none:Calculation_1179098689941716993:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cnt]' derivation='Sum' name='[sum:Cnt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941716993:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1179098689941716993:nk]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[mn:Dteday:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' shelf='columns'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941716993:nk]' member-value='&quot;Tuesday&quot;' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941716993:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941716993:nk]' value='18' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d2e6cf</color>
+                <color>#b5dbaf</color>
+                <color>#9ad092</color>
+                <color>#81c576</color>
+                <color>#6abb5d</color>
+                <color>#54b046</color>
+                <color>#41a531</color>
+                <color>#2f9a1e</color>
+                <color>#1f8f0e</color>
+                <color>#128500</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' value='total rental bikes'>
+              <formatted-text>
+                <run>total rental bikes</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' />
+              <geometry column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941716993:nk]</rows>
+        <cols>([federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok] / [federated.1dim98z0wbrvfn0zy7yqx1ea328o].[mn:Dteday:ok])</cols>
+      </table>
+      <simple-id uuid='{E0495E74-5D23-420D-B393-F7527AC6D0E6}' />
+    </worksheet>
+    <worksheet name='workday'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='14'>Work day and Rest day</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='milestone5dataset' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dim98z0wbrvfn0zy7yqx1ea328o'>
+            <column caption='work' datatype='string' name='[Calculation_1179098689942056962]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Workingday] = 0 THEN &quot;rest day&quot;&#13;&#10;ELSEIF [Workingday] = 1 THEN &quot;work day&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Cnt]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Workingday]' role='measure' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Month' name='[mn:Dteday:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1179098689942056962]' derivation='None' name='[none:Calculation_1179098689942056962:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cnt]' derivation='Sum' name='[sum:Cnt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689942056962:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1179098689942056962:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689942056962:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' scope='rows' value='total rental bikes' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689942056962:nk] * [federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk])</rows>
+        <cols>([federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok] / [federated.1dim98z0wbrvfn0zy7yqx1ea328o].[mn:Dteday:ok])</cols>
+      </table>
+      <simple-id uuid='{4C401B0F-6F57-41D1-86D0-457D75D08F10}' />
+    </worksheet>
+    <worksheet name='year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='14'>Year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='milestone5dataset' name='federated.1dim98z0wbrvfn0zy7yqx1ea328o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dim98z0wbrvfn0zy7yqx1ea328o'>
+            <column datatype='integer' name='[Cnt]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Dteday]' role='dimension' type='ordinal' />
+            <column-instance column='[Cnt]' derivation='Sum' name='[sum:Cnt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dteday]' derivation='Year' name='[yr:Dteday:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]'>
+            <groupfilter function='level-members' level='[yr:Dteday:ok]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' scope='rows' value='total rental bikes' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9890055656433105' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]</rows>
+        <cols>[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]</cols>
+      </table>
+      <simple-id uuid='{930C6BDF-C4C6-4577-B533-AB10C606699F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Segoe UI Black' fontsize='16'>How does your travel affect the number of shared bicycles? </run>
+            <run fontname='Segoe UI Black' fontsize='20'>Æ </run>
+            <run fontname='Segoe UI Black'>Æ      </run>
+            <run fontname='Segoe UI Black' fontsize='15'>Æ </run>
+            <run fontname='Segoe UI Black' fontsize='12'>---</run>
+            <run fontname='Segoe UI Black' fontsize='11'>The Relationship Between Date in 2011 and 2012 </run>
+            <run>Æ&#10;</run>
+            <run fontname='Segoe UI Black' fontsize='11'>and Number of Users for Bike-Sharing System</run>
+            <run fontname='Segoe UI Black' fontsize='12'>Æ    </run>
+            <run fontname='Segoe UI Black' fontsize='15'>Æ        </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='15625' id='16' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='82375' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='16625'>
+              <zone h='82375' id='5' type-v2='layout-basic' w='82400' x='800' y='16625'>
+                <zone h='41187' id='3' name='seasonal' w='41200' x='800' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='41187' id='9' name='month' w='41200' x='42000' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='41188' id='10' name='weekday' w='41200' x='800' y='57812'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='41188' id='12' name='workday' w='41200' x='42000' y='57812'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='82375' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='16625'>
+                <zone h='10500' id='8' name='seasonal' pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type-v2='color' w='16000' x='83200' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='144' h='19000' id='11' is-fixed='true' name='weekday' pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' type-v2='color' w='16000' x='83200' y='27125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='52875' id='13' name='year' w='16000' x='83200' y='46125'>
+                  <layout-cache cell-count-w='2' minheight='233' non-cell-size-w='100' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontname='Segoe UI Black' fontsize='16'>How does your travel affect the number of shared bicycles? </run>
+                <run fontname='Segoe UI Black' fontsize='20'>Æ </run>
+                <run fontname='Segoe UI Black'>Æ      </run>
+                <run fontname='Segoe UI Black' fontsize='15'>Æ </run>
+                <run fontname='Segoe UI Black' fontsize='12'>---</run>
+                <run fontname='Segoe UI Black' fontsize='11'>The Relationship Between Date in 2011 and 2012 </run>
+                <run>Æ&#10;</run>
+                <run fontname='Segoe UI Black' fontsize='11'>and Number of Users for Bike-Sharing System</run>
+                <run fontname='Segoe UI Black' fontsize='12'>Æ    </run>
+                <run fontname='Segoe UI Black' fontsize='15'>Æ        </run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='15625' id='16' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41187' id='3' is-fixed='true' name='seasonal' w='41200' x='800' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10500' id='8' name='seasonal' pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type-v2='color' w='16000' x='83200' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41187' id='9' is-fixed='true' name='month' w='41200' x='42000' y='16625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52875' id='13' is-fixed='true' name='year' w='16000' x='83200' y='46125'>
+                  <layout-cache cell-count-w='2' minheight='233' non-cell-size-w='100' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41188' id='10' is-fixed='true' name='weekday' w='41200' x='800' y='57812'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='144' h='19000' id='11' name='weekday' pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' type-v2='color' w='16000' x='83200' y='27125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41188' id='12' is-fixed='true' name='workday' w='41200' x='42000' y='57812'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2480396B-9CF0-4A37-8BDC-00BFB80E7F94}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FA3018A1-CF48-4620-A8EC-9FA3F39C0572}' />
+    </window>
+    <window class='worksheet' name='month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E04CB429-543F-4D59-9ED5-A5A93FCA55A4}' />
+    </window>
+    <window class='worksheet' name='seasonal'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='filter' />
+            <card param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689941254144:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8D55821C-C176-4572-A897-64871DE89A86}' />
+    </window>
+    <window class='worksheet' name='weekday'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[sum:Cnt:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9BCD658A-0FAB-4642-B3F2-B6673E0E4802}' />
+    </window>
+    <window class='worksheet' name='workday'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[none:Calculation_1179098689942056962:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1dim98z0wbrvfn0zy7yqx1ea328o].[yr:Dteday:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E2BAA750-C285-49BB-A741-07B5EFBF642E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='month'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='seasonal'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='weekday' />
+        <viewpoint name='workday'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{4AB02EE9-EAA0-49BB-9BE1-83D33FADB848}' />
+    </window>
+  </windows>
+</workbook>
