@@ -11,7 +11,7 @@ First of all, it can be seen from the various images of the plot that the overal
 
 From the heat map from 2011 to 2012, it can be seen that the darker the color, the greater the number. In these two years, the color started to become darker in February or March, and the number of users increased, usually lasting until ten The month will start to fade, that is, the number of users will decrease. This is a rough overview of the monthly change in the number of users over the past two years, which can help people get a rough idea. This is the first visualization image.
 
-It is worth noting that in September 2011, the number of users began to decrease, but 2011 did not start to decrease until the end of October. We will continue to demonstrate this point in the following images.
+In May 2011, the color of the color block gradually became darker, and continued to fade in early October. But in March 2012, the color block had started to turn red, and it was still bright red in October.
 
 ![](images/heatmap2011and2012.png)
 
@@ -23,7 +23,7 @@ Next is the ridgline map distribution in 2011 and 2012.
 
 
 From the ridgline plot representing monthly distribution, it can be seen that the number of users did not increase until April in 2011, but it showed a downward trend since October. The number is also concentrated around 5000. In contrast, since March 2012, the number of users has reached more than 6,000, and until October, the number of users is still concentrated at 6,000 to 8,000. Acoording to the heat map of the weekday in 2011 and 2012, the dark color block in 2011 stopped in September, and the dark part of September 2011 was not as much as September 2012. 
-So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was still relatively warm until October, so the number of rental bicycles was more than in 2011.
+So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was warmer in March, and kept still relatively warm until October, so the number of rental bicycles was more than in 2011.
 
 
 ## My research question is, the relationship between the number of users(cnt) and the date (holidays, weekends, weekdays, seasons, and these are of course related to year month day).
