@@ -16,7 +16,7 @@ It is worth noting that in September 2011, the number of users began to decrease
 ![](images/heatmap2011and2012.png)
 
 
-Next is the heat map distribution of the monthly weekdays in 2011 and 2012. The quantity is still distinguished according to the depth of the color.
+Next is the ridgline map distribution in 2011 and 2012. 
 
 ![](images/ridgline2011.png)
 ![](images/ridgline2012.png)
@@ -41,6 +41,6 @@ Secondly, according to the histogram of workingday and restday (restday includes
 ![](images/lineweekday2012.png)
 
 ## Summary/Conclusion:
-In summary, the number of users using shared bicycles in 2012 was almost double that of 2011. The peak periods of these two years have occurred in summer and autumn, and autumn is the peak. In the peak season, whether it is a holiday or a weekday, people rely heavily on shared bicycles, so the peaks on weekdays are relatively random. 
+In summary, the number of users using shared bicycles in 2012 was almost double that of 2011. The peak periods of these two years have occurred in summer and autumn, and autumn is the peak. The peak season in 2012 lasted a bit longer than in 2012. It may be related to the weather and other reasons. In the peak season, whether it is a holiday or a weekday, people rely heavily on shared bicycles, so the peaks on weekdays are relatively random. 
 
 This project is the first project I have completed independently, and it is also the first time I have directly updated and promoted my project with what I have learned in real time. To be honest, it made me grow a lot, because I have no one to rely on, and no one to supervise me, I need to rely on my inner drive to complete. This is definitely not the last time, but since then I will not be afraid to complete the project independently, because I think I have enough strength to do well
