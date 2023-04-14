@@ -32,7 +32,7 @@ First of all, it can be seen from the various images of my plot that the overall
 ![](images/season2011.png)
 ![](images/season2012.png)
 
-Secondly, according to the histogram of workingday and restday (restday includes holiday and weekend), the number of shared bicycles will be very high every day during the peak season. On a restday in July 2011, the number of users soared to an unprecedented height. It was the only holiday in July. In the heat map of weekday in 2012, compared with 2011, the peak period in 2011 appeared more on Saturdays and Sundays, and once on Tuesdays. In 2012, weekday peaked many times even on working day, such as Wednesday in August and September, Friday in September, etc. So in peak seasons like summer and autumn, shared bicycles are a very important means of transportation, whether it is a weekday or a holiday.
+Secondly, according to the histogram of workingday and restday (restday includes holiday and weekend), the number of shared bicycles will be very high every day during the peak season. On a restday in July 2011, the number of users soared to an unprecedented height. It was the only holiday in July. In the heat map of weekday in 2012, compared with 2011, the peak period in 2011 appeared more on Saturdays and Sundays, and once on Tuesdays. In 2012, weekday peaked many times even on working day. So in peak seasons like summer and autumn, shared bicycles are a very important means of transportation, whether it is a weekday or a holiday.
 
 ![](images/wokday2011.png)
 ![](images/workday2012.png)
