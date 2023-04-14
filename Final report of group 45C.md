@@ -22,8 +22,7 @@ Next is the ridgline map distribution in 2011 and 2012.
 ![](images/ridgline2012.png)
 
 
-From the ridgline plot representing monthly distribution, it can be seen that the number of users did not increase until April in 2011, but it showed a downward trend since October. The number is also concentrated around 5000. In contrast, since March 2012, the number of users has reached more than 6,000, and until October, the number of users is still concentrated at 6,000 to 8,000. Acoording to the heat map of the weekday in 2011 and 2012, the dark color block in 2011 stopped in September, and the dark part of September 2011 was not as much as September 2012. 
-So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was warmer in March, and kept still relatively warm until October, so the number of rental bicycles was more than in 2011.
+From the ridgline plot representing monthly distribution, it can be seen that the number of users did not increase until April in 2011, but it showed a downward trend since October. The number is also concentrated around 5000. In contrast, since March 2012, the number of users has reached more than 6,000, and until October, the number of users is still concentrated at 6,000 to 8,000. So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was warmer in March, and kept still relatively warm until October, so the number of rental bicycles was more than in 2011.
 
 
 ## My research question is, the relationship between the number of users(cnt) and the date (holidays, weekends, weekdays, seasons, and these are of course related to year month day).
@@ -33,10 +32,13 @@ First of all, it can be seen from the various images of my plot that the overall
 ![](images/season2011.png)
 ![](images/season2012.png)
 
-Secondly, according to the histogram of workingday and restday (restday includes holiday and weekend), the number of shared bicycles will be very high every day during the peak season. On a restday in July 2011, the number of users soared to an unprecedented height. It was the only holiday in July. In the heat map of weekday in 2012, compared with 2011, the peak period in 2011 appeared more on Saturdays and Sundays, and once on Tuesdays. In 2012, weekday peaked many times even on working day, such as Wednesday in August and September, Friday in September, etc. So in peak seasons like summer and autumn, shared bicycles are a very important means of transportation , whether it is a weekday or a holiday. This is also approved by the weekday line chart which shows that in 201 it appears in Tuesday, in 2012 it is on Thursday.
+Secondly, according to the histogram of workingday and restday (restday includes holiday and weekend), the number of shared bicycles will be very high every day during the peak season. On a restday in July 2011, the number of users soared to an unprecedented height. It was the only holiday in July. In the heat map of weekday in 2012, compared with 2011, the peak period in 2011 appeared more on Saturdays and Sundays, and once on Tuesdays. In 2012, weekday peaked many times even on working day, such as Wednesday in August and September, Friday in September, etc. So in peak seasons like summer and autumn, shared bicycles are a very important means of transportation, whether it is a weekday or a holiday.
 
 ![](images/wokday2011.png)
 ![](images/workday2012.png)
+
+ This is also approved by the weekday line chart which shows that in 201 it appears in Tuesday, in 2012 it is on Thursday.
+ 
 ![](images/lineweekday2011.png)
 ![](images/lineweekday2012.png)
 
