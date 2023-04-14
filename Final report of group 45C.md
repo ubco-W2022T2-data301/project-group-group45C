@@ -22,7 +22,9 @@ Next is the ridgline map distribution in 2011 and 2012.
 ![](images/ridgline2012.png)
 
 
-From the ridgline plot representing monthly distribution, it can be seen that the number of users did not increase until April in 2011, but it showed a downward trend since October. The number is also concentrated around 5000. In contrast, since March 2012, the number of users has reached more than 6,000, and until October, the number of users is still concentrated at 6,000 to 8,000. So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was warmer in March, and kept still relatively warm until October, so the number of rental bicycles was more than in 2011.
+From the ridgline plot representing monthly distribution, it can be seen that the number of users did not increase until April in 2011, but it showed a downward trend since October. The number is also concentrated around 5000. In contrast, since March 2012, the number of users has reached more than 6,000, and until October, the number of users is still concentrated at 6,000 to 8,000. I have the same observation on weekday heat map. In the weekday heat maps of 2011 and 2012, the color blocks began to turn red in May, which means that rental bikes increased. In September, most of the color blocks have changed to very light colors, and there are fewer rental bikes. In 2012, the patches remained very dark until October.
+
+So I think the 2012 peak season lasted longer than 2011. My guess is that the temperature in 2012 was higher than in 2011, and the temperature was warmer in March, and kept still relatively warm until October, so the number of rental bicycles was more than in 2011.
 
 
 ## My research question is, the relationship between the number of users(cnt) and the date (holidays, weekends, weekdays, seasons, and these are of course related to year month day).
